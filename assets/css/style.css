@@ -1,0 +1,27 @@
+body {
+    background-color: lightgreen;
+}
+
+.game-area {
+    backgrund-color: lightblue;
+}
+
+.game-points {
+    background-color: slategray;
+}
+
+.player {
+    background-color: yellow;
+}
+
+.options {
+    background-color: lightpink;
+}
+
+.opponent {
+    background-color: lightcoral;
+}
+
+footer {
+    background-color: lightsalmon;
+}
