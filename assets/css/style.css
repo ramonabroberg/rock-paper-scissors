@@ -8,17 +8,35 @@
 }
 
 body {
-    background-color: lightgreen;
     font-family: 'Chakra Petch', sans-serif;
+    background-color: #ffecc8;
 }
 
 h1 {
     font-size: 60px;
     text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    align-self: center;
+    width: 90%;
+}
+
+.content {
+    max-width: 968px;
+    margin: 0 auto;
 }
 
 .game-area {
-    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .game-points {
@@ -32,17 +50,49 @@ h1 {
 }
 
 .player {
-    background-color: yellow;
+    background-color: #98ff6b;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #201f1f;
+    border: 1px solid #a0a0a0;
 }
 
-.options {
-    background-color: lightpink;
+.options-area {
+    display: flex;
+    align-items: center;
+}
+
+.options-list {
+    list-style-type: none;
+}
+
+.options-list li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 0;
+}
+
+i {
+    font-size: 60px;
+    border: 2px solid gray;
+    padding: 3px;
+    background-color: #fafafa;
+    box-shadow: 1px 1px 2px gray;
 }
 
 .opponent {
     background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #201f1f;
+    border: 1px solid #8d8d8d;
 }
 
 footer {
-    background-color: lightsalmon;
+    text-align: center;
 }
