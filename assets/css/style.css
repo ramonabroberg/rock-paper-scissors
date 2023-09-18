@@ -1,13 +1,34 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: lightgreen;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
 }
 
 .game-area {
-    backgrund-color: lightblue;
+    background-color: lightblue;
 }
 
 .game-points {
-    background-color: slategray;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
 .player {
