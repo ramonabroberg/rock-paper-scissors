@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function runGame (playerChoice) {
+    let computerChoice = Math.floor(Math.random() * 3) + 1;
 
+    changeImg(playerChoice, computerChoice);
+
+    compare(playerChoice, computerChoice);
 }
 
 function changeImg () {
@@ -30,5 +34,5 @@ function addTie () {
 }
 
 function addLoss () {
-    
+
 }
