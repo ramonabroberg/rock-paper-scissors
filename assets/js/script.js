@@ -89,13 +89,16 @@ function compare (playerChoice, computerChoice) {
 }
 
 function addWin () {
-
+    let oldScore = parseInt(document.getElementById("win").innerText);
+    document.getElementById("win").innerText = ++oldScore;
 }
 
 function addTie () {
-
+    let oldScore = parseInt(document.getElementById("tie").innerText);
+    document.getElementById("tie").innerText = ++oldScore;
 }
 
 function addLoss () {
-
+    let oldScore = parseInt(document.getElementById("loss").innerText);
+    document.getElementById("loss").innerText = ++oldScore;
 }
