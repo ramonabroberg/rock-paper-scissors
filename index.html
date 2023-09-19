@@ -18,67 +18,66 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Main content -->
-    <div class="wrapper">
-        <!-- Header -->
-        <section class="content">
-            <h1>Rock, paper, scissors!</h1>
-    
-            <!-- Game points -->
-            <div class="content">
-                <div class="game-points">
-                    <p>Win: <span id="win">0</span></p>
-                    <p>Tie: <span id="tie">0</span></p>
-                    <p>Loss: <span id="loss">0</span></p>
-                </div>
-            </div>
+    <!-- Header -->
+    <header>
+        <div class="content"></div>
+        <h1>Rock, paper, scissors!</h1>
+    </header>
 
-            <!-- Game area -->
-            <div class="game-area content">
-                <!-- Player -->
-                <div class="player">
-                    <h2>You:</h2>
-                    <img id="player-img" src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
-                </div>
-                
-                <!-- Game options -->
-                <div class="options-area">
-                    <ul class="options-list">
-                        <li>
-                            <button id="rockBtn" data-choice="1" aria-label="Rock">
-                                <i class="fa-regular fa-hand-back-fist"></i>
-                                Rock
-                            </button>
-                        </li>
-                        <li>
-                            <button id="paperBtn" data-choice="2" aria-label="Paper">
-                                <i class="fa-regular fa-hand"></i>
-                                Paper
-                            </button>
-                        </li>
-                        <li>
-                            <button id="scissorsBtn" data-choice="3" aria-label="Scissors">
-                                <i class="fa-regular fa-hand-scissors"></i>
-                                Scissors
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Computer -->
-                <div class="computer">
-                    <h2>Computer:</h2>
-                    <img id="computer-img" src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
-                </div>
-            </div>
-
-            <!-- Footer -->
-            <footer class="content">
-                <h3>Rules:</h3>
-                <p>Rock wins over Scissors | Scissors wins over Paper | Paper wins over Rock</p>
-            </footer>
-        </section>
+    <!-- Game points -->
+    <div class="content">
+        <div class="game-points">
+            <p>Win: <span id="win">0</span></p>
+            <p>Tie: <span id="tie">0</span></p>
+            <p>Loss: <span id="loss">0</span></p>
+        </div>
     </div>
+
+    <!-- Game area -->
+    <div class="game-area content">
+        
+        <!-- Player -->
+        <div class="player">
+            <h2>You:</h2>
+            <img id="player-img" src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
+        </div>
+        
+        <!-- Game options -->
+        <div class="options-area">
+            <ul class="options-list">
+                <li>
+                    <button id="rockBtn" data-choice="1" aria-label="Rock">
+                        <i class="fa-regular fa-hand-back-fist"></i>
+                        Rock
+                    </button>
+                </li>
+                <li>
+                    <button id="paperBtn" data-choice="2" aria-label="Paper">
+                        <i class="fa-regular fa-hand"></i>
+                        Paper
+                    </button>
+                </li>
+                <li>
+                    <button id="scissorsBtn" data-choice="3" aria-label="Scissors">
+                        <i class="fa-regular fa-hand-scissors"></i>
+                        Scissors
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Computer -->
+        <div class="computer">
+            <h2>Computer:</h2>
+            <img id="computer-img" src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="content">
+        <h3>Rules:</h3>
+        <p>Rock wins over Scissors | Scissors wins over Paper | Paper wins over Rock</p>
+    </footer>
 
     <!-- Script -->
     <script src="assets/js/script.js"></script>
