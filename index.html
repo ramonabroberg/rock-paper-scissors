@@ -9,6 +9,11 @@
     <meta name="keywords" content="game, rock, paper, scissors, online game, free, fun">
     <!-- Title -->
     <title>Rock Paper Scissors!</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -19,11 +24,11 @@
  
         <!-- Game points -->
         <div class="content">
-            <ul class="game-points">
-                <li>Win: x</li>
-                <li>Tie: x</li>
-                <li>Loss: x</li>
-            </ul>
+            <div class="game-points">
+                <p>Win: <span id="win">0</span></p>
+                <p>Tie: <span id="tie">0</span></p>
+                <p>Loss: <span id="loss">0</span></p>
+            </div>
         </div>
 
         <!-- Game area -->
@@ -31,26 +36,26 @@
             <!-- Player -->
             <div class="player">
                 <h2>You:</h2>
-                <img src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
+                <img id="player-img" src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
             </div>
             
             <!-- Game options -->
             <div class="options-area">
                 <ul class="options-list">
                     <li>
-                        <button>
+                        <button id="rockBtn" data-choice="1" aria-label="Rock">
                             <i class="fa-regular fa-hand-back-fist"></i>
                             <p>Rock</p>
                         </button>
                     </li>
                     <li>
-                        <button>
+                        <button id="paperBtn" data-choice="2" aria-label="Paper">
                             <i class="fa-regular fa-hand"></i>
                             <p>Paper</p>
                         </button>
                     </li>
                     <li>
-                        <button>
+                        <button id="scissorsBtn" data-choice="3" aria-label="Scissors">
                             <i class="fa-regular fa-hand-scissors"></i>
                             <p>Scissors</p>
                         </button>
@@ -58,10 +63,10 @@
                 </ul>
             </div>
 
-            <!-- Opponent -->
-            <div class="opponent">
+            <!-- Computer -->
+            <div class="computer">
                 <h2>Computer:</h2>
-                <img src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
+                <img id="computer-img" src="assets/images/hands.jpg" alt="Image of rock, paper and scissors hand gestures.">
             </div>
         </div>
 

@@ -25,7 +25,8 @@ h2 {
 
 img {
     align-self: center;
-    width: 90%;
+    width: 230px;
+    height: 230px;
 }
 
 .content {
@@ -50,13 +51,13 @@ img {
 }
 
 .player {
-    background-color: #98ff6b;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 15px;
     box-shadow: 1px 1px 5px #201f1f;
-    border: 1px solid #a0a0a0;
+    border: 12px solid #23a723;
 }
 
 .options-area {
@@ -81,19 +82,23 @@ button {
     padding: 0 4px;
 }
 
+button:hover {
+    background-color: lightgray;   
+}
+
 i {
     font-size: 60px;
     padding: 3px;
 }
 
-.opponent {
-    background-color: lightcoral;
+.computer {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 15px;
     box-shadow: 1px 1px 5px #201f1f;
-    border: 1px solid #8d8d8d;
+    border: 12px solid #d73333;
 }
 
 footer {
