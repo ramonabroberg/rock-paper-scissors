@@ -42,8 +42,50 @@ function changeImg(playerChoice, computerChoice) {
     }
 }
 
-function compare () {
-
+function compare (playerChoice, computerChoice) {
+    if (playerChoice == computerChoice) {
+        addTie();
+    }
+    else if (playerChoice == "1") {
+        if (computerChoice == 2) {
+            addLoss();
+        }
+        else if (computerChoice == 3) {
+            addWin();
+        }
+        else {
+            alert(`Unknown game choice: ${computerChoice}`);
+            throw `Unknown game choice: ${computerChoice}. Aborting!`;
+        }
+    }
+    else if (playerChoice == "2") {
+        if (computerChoice == 1) {
+            addWin();
+        }
+        else if (computerChoice == 3) {
+            addLoss();
+        }
+        else {
+            alert(`Unknown game choice: ${computerChoice}`);
+            throw `Unknown game choice: ${computerChoice}. Aborting!`;
+        }
+    }
+    else if (playerChoice == "3") {
+        if (computerChoice == 1) {
+            addLoss();
+        }
+        else if (computerChoice == 2) {
+            addWin();
+        }
+        else {
+            alert(`Unknown game choice: ${computerChoice}`);
+            throw `Unknown game choice: ${computerChoice}. Aborting!`;
+        }
+    }
+    else {
+        alert(`Unknown game choice: ${playerChoice}`);
+        throw `Unknown game choice: ${playerChoice}. Aborting!`;
+    }
 }
 
 function addWin () {
