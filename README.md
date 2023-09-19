@@ -1,6 +1,8 @@
 # Rock, paper, scissors
 
-This website gives you the opportunity to play rock, paper, scissors against your electronic device. The layout is easy to read and you will see how the score develops during the time you play, both as wins, draws and losses.  You can also see the rules for the game at the bottom of the page. It's a classic game that's been around for a long time so most people know how to play it.
+This website gives you the opportunity to play rock, paper, scissors against your electronic device. The website's purpose is to give you a good time and for you to learn more about the game rock, paper, scissors. This website is perfect if you want to challenge a friend or family member to see which one of you that can get the most wins of the amount of turns that you decide.
+
+The layout is easy to read and you will see how the score develops during the time you play, both as wins, draws and losses.  You can also see the rules for the game at the bottom of the page even though it's a classic game that's been around for a long time so most people do know how to play it.
 
 ![Image showing responsiveness](assets/readme/responsive.png)
 
