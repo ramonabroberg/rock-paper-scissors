@@ -17,8 +17,29 @@ function runGame (playerChoice) {
     compare(playerChoice, computerChoice);
 }
 
-function changeImg () {
+function changeImg(playerChoice, computerChoice) {
+    let playerImg = document.getElementById("player-img");
+    let computerImg = document.getElementById("computer-img");
 
+    if (playerChoice == "1") {
+        playerImg.src = "assets/images/l-rock.png";
+    }
+    else if (playerChoice == "2") {
+        playerImg.src = "assets/images/l-paper.png";
+    }
+    else if (playerChoice == "3") {
+        playerImg.src = "assets/images/l-scissors.png";
+    }
+
+    if (computerChoice == "1") {
+        computerImg.src = "assets/images/r-rock.png"; 
+    }
+    else if (computerChoice == "2") {
+        computerImg.src = "assets/images/r-paper.png";
+    }
+    else if (computerChoice == "3") {
+        computerImg.src = "assets/images/r-scissors.png";
+    }
 }
 
 function compare () {
