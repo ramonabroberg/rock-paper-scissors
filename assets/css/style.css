@@ -118,6 +118,7 @@ footer {
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 30px;
+        margin-top: 1rem;
     }
 
     img {
@@ -129,6 +130,10 @@ footer {
         flex-direction: column;
         gap: 0.5rem;
         align-items: center;
+    }
+
+    .game-points {
+        margin: 0.5rem;
     }
 
     .player {
