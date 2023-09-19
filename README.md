@@ -1,4 +1,4 @@
-# Rock, paper, scissors!
+# Rock, paper, scissors
 
 This website gives you the opportunity to play rock, paper, scissors against your electronic device. The layout is easy to read and you will see how the score develops during the time you play, both as wins, draws and losses.  You can also see the rules for the game at the bottom of the page. It's a classic game that's been around for a long time so most people know how to play it.
 
@@ -28,7 +28,7 @@ This website gives you the opportunity to play rock, paper, scissors against you
   
   - Here you have three buttons you click on to choose which game option you want to use. You can choose between rock, paper or scissors.
   - When you click on your choice the computer will automatically respond with a choice itself. This will determine if it's a win, loss och draw.
-  - The buttons have text but also icons to clearly show what they stand for and of course also for the aesthetic itself. 
+  - The buttons have text but also icons to clearly show what they stand for and of course also for the aesthetic itself.
 
 ![Image of game options](assets/readme/game-options.png)
 
@@ -57,7 +57,7 @@ This website gives you the opportunity to play rock, paper, scissors against you
 - The images shows correctly for the different options.
 - All the elements are easy to read and have good contrast.
 - The website looks good on different screen sizes.
-- Results of Lighthouse from DevTools: 
+- Results of Lighthouse from DevTools:
 
 ![Image of Lighthouse result from DevTools](assets/readme/lighthouse.png)
 
@@ -99,7 +99,8 @@ No unfixed bugs known.
 
 #### Media
 
-  - The icons are taken from [Font Awesome](https://fontawesome.com/).
-  - The fonts are taken from [Google Fonts](https://fonts.google.com/).
+- The icons are taken from [Font Awesome](https://fontawesome.com/).
+- The fonts are taken from [Google Fonts](https://fonts.google.com/).
 - The image of the hand gestures were taken from [Pinterest](https://www.pinterest.se/pin/747879081845727421/).
 - The favicon was made using [Favicon](<https://favicon.io/>).
+  
