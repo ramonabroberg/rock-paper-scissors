@@ -8,3 +8,27 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+function runGame (playerChoice) {
+
+}
+
+function changeImg () {
+
+}
+
+function compare () {
+
+}
+
+function addWin () {
+
+}
+
+function addTie () {
+
+}
+
+function addLoss () {
+    
+}
